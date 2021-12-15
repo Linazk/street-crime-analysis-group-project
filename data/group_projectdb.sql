@@ -3,23 +3,23 @@ USE crimedb;
 
 -- creating table for before covid (years 2018-2020)
 CREATE TABLE london_pre_covid (
-crime_id VARCHAR(40),
-month DATE,
-reported_by VARCHAR(50),
-falls_within VARCHAR(50),
-longitude INT,
-latitude INT,
+crime_id VARCHAR(70),
+month VARCHAR(20),
+reported_by VARCHAR(60),
+longitude FLOAT(10),
+latitude FLOAT(10),
 location VARCHAR(60),
-lsoa_code VARCHAR(20),
-lsoa_name VARCHAR(20),
-crime_type VARCHAR(50),
-last_outcome VARCHAR(60)
+lsoa_code VARCHAR(50),
+lsoa_name VARCHAR(50),
+crime_type VARCHAR(60),
+last_outcome VARCHAR(60),
+borough VARCHAR(60)
 );
 
-SET GLOBAL local_infile=1;
+-- SET GLOBAL local_infile=1;
 
 -- loading the data
-LOAD DATA LOCAL INFILE '/Users/vasilina/Desktop/cfg_group_project/london2018_2020.csv'
+LOAD DATA LOCAL INFILE '/Users/vasilina/Desktop/cfg_group_project/pre_covid.csv'
 INTO TABLE london_pre_covid
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'
@@ -27,43 +27,33 @@ IGNORE 1 LINES;
 
 -- after covid table
 CREATE TABLE london_after_covid (
-crime_id VARCHAR(40),
-month DATE,
-reported_by VARCHAR(50),
-falls_within VARCHAR(50),
-longitude INT,
-latitude INT,
+crime_id VARCHAR(70),
+month VARCHAR(20),
+reported_by VARCHAR(60),
+longitude FLOAT(10),
+latitude FLOAT(10),
 location VARCHAR(60),
-lsoa_code VARCHAR(20),
-lsoa_name VARCHAR(20),
-crime_type VARCHAR(50),
-last_outcome VARCHAR(60)
+lsoa_code VARCHAR(30),
+lsoa_name VARCHAR(30),
+crime_type VARCHAR(60),
+last_outcome VARCHAR(60),
+borough VARCHAR(60)
 );
 
-LOAD DATA LOCAL INFILE '/Users/vasilina/Desktop/cfg_group_project/london2021.csv'
+LOAD DATA LOCAL INFILE '/Users/vasilina/Desktop/cfg_group_project/covid.csv'
 INTO TABLE london_after_covid
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES;
 
--- with lockdown info 
-CREATE TABLE london_lockdown (
-crime_id VARCHAR(40),
-month DATE,
-reported_by VARCHAR(50),
-falls_within VARCHAR(50),
-longitude INT,
-latitude INT,
-location VARCHAR(60),
-lsoa_code VARCHAR(20),
-lsoa_name VARCHAR(20),
-crime_type VARCHAR(50),
-last_outcome VARCHAR(60),
-lockdown INT
+-- adding stringency table
+CREATE TABLE stringency_info (
+date VARCHAR(20),
+stringency FLOAT
 );
 
-LOAD DATA LOCAL INFILE '/Users/vasilina/Desktop/cfg_group_project/london_crime_lockdown.csv'
-INTO TABLE london_lockdown
+LOAD DATA LOCAL INFILE '/Users/vasilina/Desktop/cfg_group_project/stringency.csv'
+INTO TABLE stringency_info
 FIELDS TERMINATED BY ',' ENCLOSED BY '"'
 LINES TERMINATED BY '\r\n'
 IGNORE 1 LINES;
