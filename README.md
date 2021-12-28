@@ -1,4 +1,3 @@
-# street-crime-analysis-group-project
 <p align="center">
  <b>Examining street crime in England before and during COVID-19 Pandemic (2018-2021 Sept)
 </p>
