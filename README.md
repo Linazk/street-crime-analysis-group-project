@@ -1,4 +1,4 @@
-<p align="center">
+
 # Examining street crime in England before and during the COVID-19 Pandemic(2018-2021 Sept.)
 </p>
 <p align="center">
