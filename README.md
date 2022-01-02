@@ -8,13 +8,13 @@
 
 **Structure:** <br>
 
-**Preprocessing_all.ipynb:** <br>
+**Preprocessing_all.ipynb** <br>
 
 
-**EDA_visualizations.ipynb:** <br>
+**EDA_visualizations.ipynb** <br>
 
 
-**Machine_learning.ipynb:** <br>
+**Machine_learning.ipynb** <br>
 
 
 **Files:** <br>
