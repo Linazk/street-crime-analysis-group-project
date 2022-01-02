@@ -31,7 +31,7 @@ unique values (45 rows). File also includes correlation matrices. <br>
 
 
 
-**Instructions:** <br>
+# Instructions: <br>
 
 How to connect to the database: <br>
 
