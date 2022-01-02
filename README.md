@@ -6,3 +6,21 @@
 </p>
 <hr style="border:2px solid black"> </hr>
 
+**Structure:** <br>
+
+**Preprocessing_all.ipynb:** <br>
+
+
+**EDA_visualizations.ipynb:** <br>
+
+
+**Machine_learning.ipynb:** <br>
+
+
+**Files:** <br>
+
+data files descr here
+
+**Instructions:** <br>
+
+how to run the db 
