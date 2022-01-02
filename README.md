@@ -12,7 +12,7 @@
 
 **Preprocessing_all.ipynb** <br>
 
-Includes all the preprocessing analysis. Excluding missing values, irrelevant/incomplete information, adding columns <br>
+Includes all the preprocessing analysis. Excluding missing values, irrelevant/incomplete information, adding columns.
 Also includes the API for stringency and the one hot encoding of the data.
 
 
