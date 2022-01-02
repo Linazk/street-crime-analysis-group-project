@@ -26,7 +26,7 @@ outcomes etc. Also plots comparing before and after covid crime count and more. 
 contains all the machine learning methods used. First part of the notebook is the feature importance <br>
 using RF and xgBoost to determine the most important features. Next is the regression part for <br>
 predicting crime. In part 3 is the classification (using the covid column as target). Part 4 has the <br>
-clustering to determine whether there are unique clusters before and after covid. Lastly, is the regression on just the <br>
+clustering to determine whether there are unique clusters before and after covid. Lastly, is the regression on just the 
 unique values (45 rows). File also includes correlation matrices. <br>
 
 *Data* folder has all the raw data: the police data (added per month since the complete csv was too long to upload) <br>
