@@ -8,7 +8,7 @@
 
 # Files: <br>
 
-*src* folder has all the code <br>
+*src* folder has all the code. <br>
 
 **Preprocessing_all.ipynb** <br>
 
