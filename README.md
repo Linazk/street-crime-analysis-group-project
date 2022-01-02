@@ -43,10 +43,10 @@ The SQL DB is hosted in RDS in AWS. <br>
 
 To connect to the DB create a new connection with the bellow details: <br>
 
-    hostname='database-1.caiikwj2d9fo.us-east-2.rds.amazonaws.com', <br>
-    database='crimedb', <br>
-    username='cfg_user', <br>
-    password='cfg_project2021' <br>
+    hostname='database-1.caiikwj2d9fo.us-east-2.rds.amazonaws.com', 
+    database='crimedb', 
+    username='cfg_user', 
+    password='cfg_project2021' 
 
 In order to extract data from the DB import the connect_to_db.ipynb file in your script: <br>
     import import_ipynb <br>
