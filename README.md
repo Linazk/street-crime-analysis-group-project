@@ -8,7 +8,7 @@
 
 **Files:** <br>
 
-*src folder*: <br>
+*src folder* has all the code <br>
 
 **Preprocessing_all.ipynb** <br>
 
@@ -29,7 +29,11 @@ predicting crime. In part 3 is the classification (using the covid column as tar
 clustering to determine whether there are unique clusters before and after covid. Lastly, is the regression on just the <br>
 unique values (45 rows). File also includes correlation matrices. <br>
 
+*Data folder* has all the raw data: the police data (added per month since the complete csv was too long to upload) <br>
+The stringency values that were extracted from the API (per month) and the unemployment rates csv for unemployment <br>
+information for London. <br>
 
+*Documentations folder* includes the project report and the PowerPoint slides.
 
 # Instructions: <br>
 
@@ -48,9 +52,5 @@ In order to extract data from the DB import the connect_to_db.ipynb file in your
     import import_ipynb <br>
     from connect_to_db import db_cnx <br>
 
-*Data folder* has all the raw data: the police data (added per month since the complete csv was too long to upload) <br>
-The stringency values that were extracted from the API (per month) and the unemployment rates csv for unemployment <br>
-information for London. <br>
 
-*Documentations folder* includes the project report and the PowerPoint slides.
 
