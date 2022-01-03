@@ -21,7 +21,7 @@ Also includes the API for stringency and the one hot encoding of the data.
 **EDA_other_cities.ipynb** <br>
 **EDA_maps.ipynb** <br>
 
-The file includes all the visualizations created for all the cities for both datasets. Top crimes, top locations, crime <br>
+The files includes all the visualizations created for all the cities for both datasets. Top crimes, top locations, crime <br>
 outcomes etc. Also plots comparing before and after covid crime count and more. <br>
 
 **Machine_learning.ipynb** <br>
