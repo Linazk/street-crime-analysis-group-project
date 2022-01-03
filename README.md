@@ -36,7 +36,7 @@ unique values (45 rows). File also includes correlation matrices. <br>
 The stringency values that were extracted from the API (per month) and the unemployment rates csv for unemployment <br>
 information for London. <br>
 
-*Documentations* folder includes the project report and the PowerPoint slides.
+*Documents* folder includes the project report and the PowerPoint slides.
 
 # Instructions: <br>
 
