@@ -16,7 +16,10 @@ Includes all the preprocessing analysis. Excluding missing values, irrelevant/in
 Also includes the API for stringency and the one hot encoding of the data.
 
 
-**EDA_visualizations.ipynb** <br>
+**EDA_london.ipynb** <br>
+**EDA_london_boroughs.ipynb** <br>
+**EDA_other_cities.ipynb** <br>
+**EDA_maps.ipynb** <br>
 
 The file includes all the visualizations created for all the cities for both datasets. Top crimes, top locations, crime <br>
 outcomes etc. Also plots comparing before and after covid crime count and more. <br>
