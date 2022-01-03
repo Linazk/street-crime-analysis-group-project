@@ -55,5 +55,7 @@ In order to extract data from the DB import the connect_to_db.ipynb file in your
     import import_ipynb <br>
     from connect_to_db import db_cnx <br>
 
-
+**NOTE:**
+Some Jupyter notebooks might not load on GitHub due to being too large. If that happens you can view them by <br>
+inputting the notebook URL in nbviewer: https://nbviewer.org/
 
